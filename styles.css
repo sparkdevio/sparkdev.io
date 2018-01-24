@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 15px;
+}
+
+h1 {
+  opacity: 0.5;
+  font-family: 'FiraSans-Light', Arial, sans-serif;
+  font-size: 1.5em;
+  color: #181c22;
+  letter-spacing: 0.59px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'FiraSans-Light', Arial, sans-serif;
+  font-size: 2em;
+  color: #181C22;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+p,
+footer {
+  font-family: 'FiraSans-Book', Arial, sans-serif;
+  font-size: 16px;
+  color: #181C22;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  margin: 0 auto;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.joey {
+  font-weight: 600;
+}
+
+header {
+  position: relative;
+  min-width: 200px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.illustration {
+  width: 100%;
+  height: auto;
+  margin: 20px auto 0;
+}
+
+.logo {
+  width: 55%;
+  display: block;
+  position: absolute;
+  top: 18%;
+  left: 25%;
+}
+
+.main-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact {
+  margin: 25px;
+}
+
+.contact a {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.contact i {
+  background-image: url( "/contact.svg" );
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px 16px;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: -5px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+/* small short screens */
+ @media screen and ( max-height: 500px ){
+  .illustration {
+    padding: 0 30px;
+  }
+   .logo {
+     width: 45%;
+     top: 20%;
+     left: 30%;
+   }
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
